@@ -241,6 +241,12 @@ android_app_import {
 }
 
 dex_import {
+	name: "tcmclient",
+	owner: "xiaomi",
+	jars: ["proprietary/framework/tcmclient.jar"],
+}
+
+dex_import {
 	name: "com.android.hotwordenrollment.common.util",
 	owner: "xiaomi",
 	jars: ["proprietary/system_ext/framework/com.android.hotwordenrollment.common.util.jar"],
