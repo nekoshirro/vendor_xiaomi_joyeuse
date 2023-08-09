@@ -135,7 +135,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm6250-common/proprietary/vendor/bin/sscrpcd:$(TARGET_COPY_OUT_VENDOR)/bin/sscrpcd \
     vendor/xiaomi/sm6250-common/proprietary/vendor/bin/tftp_server:$(TARGET_COPY_OUT_VENDOR)/bin/tftp_server \
     vendor/xiaomi/sm6250-common/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
-    vendor/xiaomi/sm6250-common/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
     vendor/xiaomi/sm6250-common/proprietary/vendor/bin/tloc_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/tloc_daemon \
     vendor/xiaomi/sm6250-common/proprietary/vendor/bin/wfdhdcphalservice:$(TARGET_COPY_OUT_VENDOR)/bin/wfdhdcphalservice \
     vendor/xiaomi/sm6250-common/proprietary/vendor/bin/wfdvndservice:$(TARGET_COPY_OUT_VENDOR)/bin/wfdvndservice \
@@ -250,7 +249,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm6250-common/proprietary/vendor/etc/init/init-qcril-data.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init-qcril-data.rc \
     vendor/xiaomi/sm6250-common/proprietary/vendor/etc/init/init.batterysecret.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.batterysecret.rc \
     vendor/xiaomi/sm6250-common/proprietary/vendor/etc/init/init.qti.qcv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qti.qcv.rc \
-    vendor/xiaomi/sm6250-common/proprietary/vendor/etc/init/init.time_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.time_daemon.rc \
     vendor/xiaomi/sm6250-common/proprietary/vendor/etc/init/init.vendor.sensors.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.sensors.rc \
     vendor/xiaomi/sm6250-common/proprietary/vendor/etc/init/ipa_fws.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipa_fws.rc \
     vendor/xiaomi/sm6250-common/proprietary/vendor/etc/init/ipacm-diag.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipacm-diag.rc \
@@ -1054,7 +1052,6 @@ PRODUCT_PACKAGES += \
     CACertService \
     CneApp \
     IWlanService \
-    TimeService \
     PowerOffAlarm \
     HotwordEnrollmentOKGoogleHEXAGON \
     HotwordEnrollmentXGoogleHEXAGON \
