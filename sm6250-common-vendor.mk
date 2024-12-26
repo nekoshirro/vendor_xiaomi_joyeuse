@@ -423,7 +423,6 @@ PRODUCT_PACKAGES += \
     libasphere \
     libshoebox \
     vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl \
-    android.hardware.camera.provider@2.4-legacy \
     com.qti.eeprom.sunny_gc8034 \
     com.qti.sensor.curtana_gc02m1 \
     com.qti.sensor.curtana_gc8034 \
@@ -748,7 +747,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.bluetooth_sar@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.1 \
     vendor.qti.hardware.cacert@1.0 \
-    vendor.qti.hardware.camera.device@3.5 \
     vendor.qti.hardware.cvp@1.0 \
     vendor.qti.hardware.data.cne.internal.api@1.0 \
     vendor.qti.hardware.data.cne.internal.constants@1.0 \
