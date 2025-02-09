@@ -340,12 +340,6 @@ PRODUCT_PACKAGES += \
     libadreno_app_profiles \
     libadreno_utils \
     libc2d30_bltlib \
-    libcamxfdalgov7 \
-    libcamxfdalgov8 \
-    libcamxfdengine \
-    libcamxstatscore \
-    libcamxswprocessalgo \
-    libcamxtintlessalgo \
     libdiag \
     libdsutils \
     libgpudataproducer \
@@ -592,6 +586,12 @@ PRODUCT_PACKAGES += \
     libcamera_dirty \
     libcamera_nn_stub \
     libcamera_scene \
+    libcamxfdalgov7 \
+    libcamxfdalgov8 \
+    libcamxfdengine \
+    libcamxstatscore \
+    libcamxswprocessalgo \
+    libcamxtintlessalgo \
     libcdfw \
     libcdfw_remote_api \
     libcdsp_default_listener \
