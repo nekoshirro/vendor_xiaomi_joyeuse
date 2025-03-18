@@ -2002,6 +2002,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/hw/audio.primary.atoll.so",
             ],
             shared_libs: [
+                "fakelogprint",
                 "libbase",
                 "liblog",
                 "libcutils",
