@@ -4,7 +4,7 @@
 
 soong_namespace {
     imports: [
-        "device/xiaomi/miatoll",
+        "device/xiaomi/joyeuse",
         "hardware/qcom-caf/sm8150",
         "hardware/qcom-caf/wlan",
         "hardware/xiaomi",
